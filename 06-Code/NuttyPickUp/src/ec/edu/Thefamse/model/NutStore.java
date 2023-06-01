@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author narvaez leonardo
+ * @author THE FANSE.
  */
 public class NutStore {
     public static void menu() {
@@ -25,10 +25,12 @@ public class NutStore {
             System.out.println("5. Estado de compra.");
             System.out.println("6. Reporte.");
             System.out.println("7. Salir.");
+            System.out.println("Ingrese la opcion que desea visualizar: ");
             option = scanner.nextInt();
 
             switch (option) {
                 case 1:
+                    System.out.println("--Usted a ingresado en creacion de usuario--");
                     NutCustomer customer = NutCustomer.createAccount();
                     System.out.println("Cuenta creada.");
                     break;
