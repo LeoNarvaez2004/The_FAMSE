@@ -23,7 +23,8 @@ public class NutStore {
             System.out.println("4. Editar compra.");
             System.out.println("5. Estado de compra.");
             System.out.println("6. Generar archivo JSON de reportes.");
-            System.out.println("7. Salir.");
+            System.out.println("7. Generar factura.");
+            System.out.println("8. Salir.");
 
             try {
                 System.out.println("Ingrese la opcion que desea visualizar: ");
@@ -55,7 +56,7 @@ public class NutStore {
                             }
                         }
                         break;
-                    case 4:
+                     case 4:
                         if (reservation == null) {
                             System.out.println("No se ha realizado ninguna compra.");
                         } else {
@@ -72,12 +73,21 @@ public class NutStore {
                         }
                         break;
                     case 6:
-                         System.out.println("--Generar reporte--");
+                        System.out.println("--Generar reporte--");
                         Report.generateReportJSON(customers);
                         System.out.println("Reporte generado.");
                         break;
                     case 7:
-                        salir = true; // Actualizar la variable salir para salir del bucle
+                   if (reservation != null && reservation.isPurchased()) {
+                          NutCustomer currentCustomer = customers.get(customers.size() - 1);
+                          InvoiceGenerator.generateInvoice(product, reservation, currentCustomer);
+                      } else {
+                          System.out.println("No se ha realizado ninguna compra o la compra no ha sido confirmada.");
+                     }
+                         break;
+
+                    case 8:
+                        salir = true; 
                         System.out.println("Gracias, buen dia.");
                         break;
                     default:
@@ -85,7 +95,7 @@ public class NutStore {
                         break;
                 }
             } catch (InputMismatchException e) {
-                System.out.println("Solo puede ingresar numeros.");
+                System.out.println("Solo puede ingresar números.");
                 scanner.next();
             }
         }

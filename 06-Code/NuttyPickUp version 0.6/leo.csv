@@ -1,0 +1,13 @@
+{
+  "id": 1750573733,
+  "name": "leo",
+  "contact": "65465456",
+  "purchasedProducts": [
+    {
+      "id": 1,
+      "name": "nuez",
+      "category": "salado",
+      "price": 0.8
+    }
+  ]
+}
