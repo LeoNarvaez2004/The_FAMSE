@@ -3,17 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/leona/OneDrive/Escritorio/NuttyPickUp0.1/src/ec/edu/Thefamse/model/NutStoreInventory.java</file>
-            <file>file:/C:/Users/leona/OneDrive/Escritorio/NuttyPickUp0.1/src/ec/edu/Thefamse/model/NutStore.java</file>
-            <file>file:/C:/Users/leona/OneDrive/Escritorio/NuttyPickUp0.1/src/ec/edu/Thefamse/model/Report.java</file>
-            <file>file:/C:/Users/leona/OneDrive/Escritorio/NuttyPickUp0.1/src/ec/edu/Thefamse/model/NutStoreSeller.java</file>
-            <file>file:/C:/Users/leona/OneDrive/Escritorio/NuttyPickUp0.1/src/ec/edu/Thefamse/model/PurchaseModifier.java</file>
-            <file>file:/C:/Users/leona/OneDrive/Escritorio/NuttyPickUp0.1/src/ec/edu/Thefamse/model/Reservation.java</file>
-            <file>file:/C:/Users/leona/OneDrive/Escritorio/NuttyPickUp0.1/src/ec/edu/Thefamse/view/NuttyPickUp.java</file>
-            <file>file:/C:/Users/leona/OneDrive/Escritorio/NuttyPickUp0.1/src/ec/edu/Thefamse/model/InvoiceGenerator.java</file>
-            <file>file:/C:/Users/leona/OneDrive/Escritorio/NuttyPickUp0.1/src/ec/edu/Thefamse/model/NutCustomer.java</file>
-            <file>file:/C:/Users/leona/OneDrive/Escritorio/NuttyPickUp0.1/src/ec/edu/Thefamse/model/NutProduct.java</file>
-            <file>file:/C:/Users/leona/OneDrive/Escritorio/NuttyPickUp0.1/src/ec/edu/Thefamse/model/OwnerNutStore.java</file>
+            <file>file:/C:/Users/leona/OneDrive/Escritorio/The%20FAMSE/The_FAMSE/06-Code/NuttyPickUp0.7/src/ec/edu/Thefamse/view/NuttyPickUp.java</file>
+            <file>file:/C:/Users/leona/OneDrive/Escritorio/The%20FAMSE/The_FAMSE/06-Code/NuttyPickUp0.7/src/ec/edu/Thefamse/model/InvoiceGenerator.java</file>
+            <file>file:/C:/Users/leona/OneDrive/Escritorio/The%20FAMSE/The_FAMSE/06-Code/NuttyPickUp0.7/src/ec/edu/Thefamse/model/NutStore.java</file>
+            <file>file:/C:/Users/leona/OneDrive/Escritorio/The%20FAMSE/The_FAMSE/06-Code/NuttyPickUp0.7/src/ec/edu/Thefamse/model/NutProduct.java</file>
+            <file>file:/C:/Users/leona/OneDrive/Escritorio/The%20FAMSE/The_FAMSE/06-Code/NuttyPickUp0.7/src/ec/edu/Thefamse/model/OwnerNutStore.java</file>
+            <file>file:/C:/Users/leona/OneDrive/Escritorio/The%20FAMSE/The_FAMSE/06-Code/NuttyPickUp0.7/src/ec/edu/Thefamse/model/NutStoreInventory.java</file>
+            <file>file:/C:/Users/leona/OneDrive/Escritorio/The%20FAMSE/The_FAMSE/06-Code/NuttyPickUp0.7/src/ec/edu/Thefamse/model/NutCustomer.java</file>
         </group>
     </open-files>
 </project-private>
