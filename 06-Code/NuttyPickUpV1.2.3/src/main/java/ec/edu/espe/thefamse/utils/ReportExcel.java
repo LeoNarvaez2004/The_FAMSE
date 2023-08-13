@@ -24,7 +24,7 @@ import org.apache.poi.ss.util.CellRangeAddress;
 
 /**
  *
- * @author Anthony Morales, The_FAMSE
+ * @author Team 5, The_FAMSE
  */
 public class ReportExcel {
     private MongoClient mongoClient;

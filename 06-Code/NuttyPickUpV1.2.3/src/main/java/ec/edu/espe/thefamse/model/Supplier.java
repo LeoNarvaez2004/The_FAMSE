@@ -6,24 +6,22 @@ import org.bson.types.ObjectId;
  *
  * @author Anthony Morales, The_FAMSE
  */
-public class Supplier {
+public class Sale {
     private ObjectId _id;
-    private int ruc;
-    private String name;
-    private String cellphone;
-    private String address;
+    private String customer;
+    private String seller;
+    private double total;
 
-    public Supplier() {
+    public Sale() {
     }
 
-    public Supplier(ObjectId _id, int ruc, String name, String cellphone, String address) {
+    public Sale(ObjectId _id, String customer, String seller, double total) {
         this._id = _id;
-        this.ruc = ruc;
-        this.name = name;
-        this.cellphone = cellphone;
-        this.address = address;
+        this.customer = customer;
+        this.seller = seller;
+        this.total = total;
     }
-    
+
     public ObjectId getId() {
         return _id;
     }
@@ -32,36 +30,28 @@ public class Supplier {
         this._id = _id;
     }
 
-    public int getRuc() {
-        return ruc;
+    public String getCustomer() {
+        return customer;
     }
 
-    public void setRuc(int ruc) {
-        this.ruc = ruc;
+    public void setCustomer(String customer) {
+        this.customer = customer;
     }
 
-    public String getName() {
-        return name;
+    public String getSeller() {
+        return seller;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setSeller(String seller) {
+        this.seller = seller;
     }
 
-    public String getCellphone() {
-        return cellphone;
+    public double getTotal() {
+        return total;
     }
 
-    public void setCellphone(String cellphone) {
-        this.cellphone = cellphone;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
+    public void setTotal(double total) {
+        this.total = total;
     }
     
 }

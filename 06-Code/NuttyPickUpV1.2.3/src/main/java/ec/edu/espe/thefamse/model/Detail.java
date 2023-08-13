@@ -4,7 +4,7 @@ import org.bson.types.ObjectId;
 
 /**
  *
- * @author Anthony Morales, The_FAMSE
+ * @author Team 5, The_FAMSE
  */
 public class Detail {
     private ObjectId _id;

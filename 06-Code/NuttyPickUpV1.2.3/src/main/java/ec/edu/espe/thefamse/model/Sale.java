@@ -6,6 +6,7 @@ import org.bson.types.ObjectId;
  *
  * @author Anthony Morales, The_FAMSE
  */
+
 public class Sale {
     private ObjectId _id;
     private String customer;

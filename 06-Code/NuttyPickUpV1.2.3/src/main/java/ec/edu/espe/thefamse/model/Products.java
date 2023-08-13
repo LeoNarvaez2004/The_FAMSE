@@ -4,33 +4,26 @@ import org.bson.types.ObjectId;
 
 /**
  *
- * @author Anthony Morales, The_FAMSE
+ * @author Team 5, The_FAMSE
  */
-public class Products {
-   private ObjectId _id;
-   private String code;
-   private String name;
-   private String supplier;
-   private int stock;
-   private double price;
+public class Detail {
+    private ObjectId _id;
+    private String cod_pro;
+    private int quantity;
+    private double price;
+    private int id_sale;
 
-    @Override
-    public String toString() {
-        return "Products{" + "_id=" + _id + ", code=" + code + ", name=" + name + ", supplier=" + supplier + ", stock=" + stock + ", price=" + price + '}';
+    public Detail() {
     }
 
-    public Products() {
-    }
-
-    public Products(ObjectId _id, String code, String name, String supplier, int stock, double price) {
+    public Detail(ObjectId _id, String cod_pro, int quantity, double price, int id_sale) {
         this._id = _id;
-        this.code = code;
-        this.name = name;
-        this.supplier = supplier;
-        this.stock = stock;
+        this.cod_pro = cod_pro;
+        this.quantity = quantity;
         this.price = price;
+        this.id_sale = id_sale;
     }
-   
+
     public ObjectId getId() {
         return _id;
     }
@@ -39,36 +32,20 @@ public class Products {
         this._id = _id;
     }
 
-    public String getCode() {
-        return code;
+    public String getCod_pro() {
+        return cod_pro;
     }
 
-    public void setCode(String code) {
-        this.code = code;
+    public void setCod_pro(String cod_pro) {
+        this.cod_pro = cod_pro;
     }
 
-    public String getName() {
-        return name;
+    public int getQuantity() {
+        return quantity;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getSupplier() {
-        return supplier;
-    }
-
-    public void setSupplier(String supplier) {
-        this.supplier = supplier;
-    }
-
-    public int getStock() {
-        return stock;
-    }
-
-    public void setStock(int stock) {
-        this.stock = stock;
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
     }
 
     public double getPrice() {
@@ -78,5 +55,13 @@ public class Products {
     public void setPrice(double price) {
         this.price = price;
     }
-   
+
+    public int getId_sale() {
+        return id_sale;
+    }
+
+    public void setId_sale(int id_sale) {
+        this.id_sale = id_sale;
+    }
+    
 }
